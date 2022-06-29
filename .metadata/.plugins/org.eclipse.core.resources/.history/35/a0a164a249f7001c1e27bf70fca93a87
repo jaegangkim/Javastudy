@@ -1,0 +1,13 @@
+package java0629;
+
+public class ex01_기본별찍기 {
+
+	public static void main(String[] args) {
+		
+		for(int i =1; i<=5 ; i++) {
+			System.out.println("*");
+		}
+			
+	}
+
+}

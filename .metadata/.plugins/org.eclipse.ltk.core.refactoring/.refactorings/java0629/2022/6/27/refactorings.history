@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;java0629.ex01_&apos; to &apos;ex01_기본별찍기&apos;&#x0D;&#x0A;- Original project: &apos;java0629&apos;&#x0D;&#x0A;- Original element: &apos;java0629.ex01_&apos;&#x0D;&#x0A;- Renamed element: &apos;java0629.ex01_기본별찍기&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ex01_&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;java0629{ex01_.java[ex01_" matchStrategy="1" name="ex01_기본별찍기" qualified="false" references="true" similarDeclarations="false" stamp="1656465515826" textual="false" version="1.0"/>
+</session>

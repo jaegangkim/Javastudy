@@ -1,0 +1,27 @@
+package java0629;
+
+public class ex05_약수구하기 {
+
+	public static void main(String[] args) {
+		for(int n=2; n<=30 ; n++) {
+			System.out.print(n+"의 약수: ");
+			for(int i = 1; i<=n; i++) {
+				if (n%i==0) {
+					System.out.print(i+" ");
+				}
+				
+				
+				
+			}
+		}
+
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
