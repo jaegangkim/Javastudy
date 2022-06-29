@@ -1,0 +1,10 @@
+package java0623;
+
+public abstract class ex02양수음수판별기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

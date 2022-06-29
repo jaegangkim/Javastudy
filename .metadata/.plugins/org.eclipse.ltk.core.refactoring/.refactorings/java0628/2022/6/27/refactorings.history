@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;java0628.ex05_예제5&apos; to &apos;ex05_예제4&apos;&#x0D;&#x0A;- Original project: &apos;java0628&apos;&#x0D;&#x0A;- Original element: &apos;java0628.ex05_예제5&apos;&#x0D;&#x0A;- Renamed element: &apos;java0628.ex05_예제4&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ex05_예제5&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;java0628{ex05_예제5.java[ex05_예제5" matchStrategy="1" name="ex05_예제4" qualified="false" references="true" similarDeclarations="false" stamp="1656382317389" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package java0627;
+
+public class ex01_조건문예제1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

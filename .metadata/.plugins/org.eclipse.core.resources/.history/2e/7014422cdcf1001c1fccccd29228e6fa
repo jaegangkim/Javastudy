@@ -1,0 +1,10 @@
+package java0622;
+
+public class ex05시분초__변환기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

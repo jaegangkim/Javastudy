@@ -1,0 +1,11 @@
+package java0622;
+
+public class ex04산술예제2 {
+	public static void main(String[] args) {
+		int num = 456;
+		int num2 = (num/100) * 100;
+				System.out.println(num2);
+		
+	}
+
+}
