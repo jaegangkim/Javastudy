@@ -8,13 +8,10 @@ public class MovieVO {
 	private String location;
 	private String time;
 	
-	
-		public MovieVO() {
+	public MovieVO() {
 		
-		}
-	
-	
-	
+	}
+		
 	public MovieVO(String title, String name, int price, String location, String time) {
 		super();
 		this.title = title;
