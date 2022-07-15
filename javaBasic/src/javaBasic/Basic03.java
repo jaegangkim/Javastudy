@@ -19,13 +19,13 @@ public class Basic03 {
 		// class : 새로운 자료형을 만드는 도구
 		// 객체를 생성(Book) : 객체를 생성하는 메서드(생성자메서드)
 		Book b = new Book();
-		b.title="명품 자바";
+		/* b.title="명품 자바";
 		b.name ="황기태";
 		b.company ="생능출판사";
 		b.price=33000;
-		b.page=851;
+		b.page=851;   */  // private이라 안됨
 		
-		System.out.println(b.title+"|"+b.name+"|"+b.company+"|"+b.price+"|"+b.page);
+		//System.out.println(b.title+"|"+b.name+"|"+b.company+"|"+b.price+"|"+b.page);
 	
 		
 	
