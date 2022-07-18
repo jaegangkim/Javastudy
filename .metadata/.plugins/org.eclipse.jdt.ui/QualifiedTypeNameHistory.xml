@@ -12,4 +12,10 @@
     <fullyQualifiedTypeName name="com.google.gson.Gson"/>
     <fullyQualifiedTypeName name="com.google.gson.JsonElement"/>
     <fullyQualifiedTypeName name="kr.co.smhrd.Member"/>
+    <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+    <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
+    <fullyQualifiedTypeName name="org.jsoup.nodes.Element"/>
+    <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
+    <fullyQualifiedTypeName name="kr.ani.oop.Cat"/>
+    <fullyQualifiedTypeName name="kr.ani.oop.Dog"/>
 </qualifiedTypeNameHistroy>

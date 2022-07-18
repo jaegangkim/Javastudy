@@ -1,6 +1,7 @@
 package kr.co.smhrd;		// package 선언문
 
-public class Member {
+	// public, private, protected(상속)
+	public class Member {
 	
 	
 }
