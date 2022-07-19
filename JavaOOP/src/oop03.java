@@ -1,4 +1,6 @@
-package kr.ani.oop;
+import kr.ani.oop.Animal;
+import kr.ani.oop.Cat;
+import kr.ani.oop.Dog;
 
 public class oop03 {
 
