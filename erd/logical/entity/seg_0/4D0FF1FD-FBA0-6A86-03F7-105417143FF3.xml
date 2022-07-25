@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D0FF1FD-FBA0-6A86-03F7-105417143FF3" name="professor">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:32:18 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="professor_id" id="17F496D0-44B4-C674-6933-331DD8F5E193">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:44:33 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professor_name" id="7715EE45-BD74-4471-70EF-B37DCD02039D">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:45:10 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dapartment_id" id="3955A102-78C5-C9CE-EBE5-4042DBB2AC48">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:52:39 UTC</createdTime>
+<generatorID>0C09A6E6-4D0B-C0FE-4863-DCDC90AF48B8</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<referedAttribute>1BC5196E-5C69-5934-C580-46F7EC5345C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="352D1EE5-DD93-9BC6-E988-D5731120D75C" name="professor PK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:45:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17F496D0-44B4-C674-6933-331DD8F5E193</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

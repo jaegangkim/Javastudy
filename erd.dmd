@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erd" id="4FC6E623-C634-1FFF-3D46-0E60CDC54BC5" version="3.5">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:17:19 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4FC6E623-C634-1FFF-3D46-0E60CDC54BC5</designId>
+</OSDM_Design>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D95388-6C3F-78C6-C86F-24E53F5D303F" name="course">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>00281968-813E-1301-3D27-45813F0B27FC</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coursr_id" id="5F6392C2-F9FD-1EEA-65F0-E3DA69BF385E">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>96A58B72-52F6-965E-83D8-B48EAD21A50A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_name" id="DFC0B155-CA1A-8DBD-F0B2-397AC5F83EFA">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>EB2BF9F6-F527-C8A5-5AF3-91728E48191A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="491C0D0F-F4F3-EA55-B13E-7702F761EFE2">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>592FA912-778B-F669-B8FF-6FE069A4124F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="73413CD3-000B-B183-DD54-35D33A37BDE7">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>8DF8388F-755B-8C01-43F2-4CCA44E10564</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professor_professor_id" id="1DD035DE-D501-F599-8004-08CDF4D772E4">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>26694A4A-B26D-DD01-2DA9-B9AB8C3B5947</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E63B71E-666C-80D2-E235-5A59C0812570" referredColumn="BB687D5F-A4EE-DB86-BD02-18055AAC05CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E76FFBD-B44B-6994-6F40-0930C141B6D5" name="course_PK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>3E21032D-79DC-F340-9DF2-DA04D5463A94</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F6392C2-F9FD-1EEA-65F0-E3DA69BF385E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19164463-393A-8BFF-AB81-D37AEAF7BA2D" name="course_professor_FK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>1BC23845-E2F3-5D62-6908-26B361D4EDF6</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD035DE-D501-F599-8004-08CDF4D772E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

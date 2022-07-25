@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BF72801-2FE9-1568-C292-6296361F4FA9" name="department">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:30:38 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dapartment_id" id="1BC5196E-5C69-5934-C580-46F7EC5345C8">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:41:59 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dapertment_name" id="5033897D-6308-88FC-3A0E-363F512DF107">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:43:29 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="990D03C4-6F1C-1E6A-F267-C9F0FC07CAF5" name="department PK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:42:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BC5196E-5C69-5934-C580-46F7EC5345C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

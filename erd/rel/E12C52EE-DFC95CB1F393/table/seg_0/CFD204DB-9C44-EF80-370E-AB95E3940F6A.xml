@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFD204DB-9C44-EF80-370E-AB95E3940F6A" name="student_course">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>72D203F3-B737-E777-B04D-5A68625102A1</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="course_coursr_id" id="5EA1DCA8-6778-980A-ACB4-8398A2E77ABE">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>9B07B09B-ADBF-187C-73A0-D44EA758CC7C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A9DBB9A-DB4F-CD24-B9A8-BB9B9980955E" referredColumn="5F6392C2-F9FD-1EEA-65F0-E3DA69BF385E"/>
+</associations>
+</Column>
+<Column name="student_student_id" id="720EB2E2-8493-15DE-AF43-13A8041BCBF2">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>FD4309AB-1468-6F31-FCF2-96687C05826E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61D9CD99-1C8D-5F82-2EDA-001B30935E27" referredColumn="C8BF3EC6-D9E2-EEF4-4AE9-E88638475D46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5197C9D1-38B5-3F10-D470-8589D2503F80" name="student_course_student_FK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>68DFE12E-5F81-3AD9-4BC3-80C936C4E2F3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="720EB2E2-8493-15DE-AF43-13A8041BCBF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D01F803-9B19-5551-2B78-2E7950644BC0" name="student_course_course_FK">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:20:54 UTC</createdTime>
+<generatorID>A3B1E17D-60C3-518A-48B9-053444E9518D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EA1DCA8-6778-980A-ACB4-8398A2E77ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

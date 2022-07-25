@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72D203F3-B737-E777-B04D-5A68625102A1" name="student_course">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 07:32:10 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coursr_id" id="9B07B09B-ADBF-187C-73A0-D44EA758CC7C">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:13:19 UTC</createdTime>
+<generatorID>A3B1E17D-60C3-518A-48B9-053444E9518D</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<referedAttribute>96A58B72-52F6-965E-83D8-B48EAD21A50A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="FD4309AB-1468-6F31-FCF2-96687C05826E">
+<createdBy>aischool</createdBy>
+<createdTime>2022-07-25 08:15:01 UTC</createdTime>
+<generatorID>68DFE12E-5F81-3AD9-4BC3-80C936C4E2F3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="E12C52EE-C840-8FD2-E3EA-DFC95CB1F393" value="true"/>
+</engineerTo>
+<referedAttribute>82A69233-B9CE-24A6-A225-1A3FB1458FA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
