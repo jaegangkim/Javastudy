@@ -68,7 +68,7 @@ public class BoardDAO {
 		return list;
 	}////_boardAllList_////
 	
-	
+	//delete
 	public int boardDelete(int num) {
 		String SQL="Delete from board where num=?";
 		Connection conn = getConnect();
@@ -83,14 +83,13 @@ public class BoardDAO {
 			dbClose();
 		}
 		return cnt;
-	}
-	// _delete__ ////
+	}// _delete__ ////
 	
-	
+	// update
 	public int boardUpdate(Board vo) {
 		String SQL = "update board set title=?,content=? where num=?";
 		int cnt = -1;
-		Connection conn = getConnect();
+		conn = getConnect();
 		try {
 			ps = conn.prepareStatement(SQL);
 			ps.setString(1, vo.getTitle());
@@ -103,9 +102,77 @@ public class BoardDAO {
 		} finally {
 			dbClose();
 		}return cnt;
-		
-	}
+	}// __update__ //
 	
+	//search
+	public List boardSearchList(String search) {
+		String SQL="select * from board where title like ?";
+		conn = getConnect();
+		List<Board> list = new ArrayList<Board>();
+		try {
+			ps = conn.prepareStatement(SQL);
+			ps.setString(1, "%"+search+"%");
+			rs = ps.executeQuery();
+			while(rs.next()) {
+				int num = rs.getInt("num");
+				String title = rs.getString("title");
+				String content=rs.getString("content");
+				String writer=rs.getString("writer");
+				String indate=rs.getString("indate");
+				int count =rs.getInt("count");
+				// 묶고(VO) -> 담고(List)
+				Board vo=new Board(num,title,content,writer,indate,count);
+				list.add(vo);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			dbClose();
+		}
+		return list;
+	}//__search__//
+	
+	//getByNum
+	public Board getByNum(int num) {
+		String SQL="select * from board where num=?";
+		conn = getConnect();
+		Board vo=null;
+		try {
+			ps = conn.prepareStatement(SQL);
+			ps.setInt(1, num);
+			rs = ps.executeQuery();
+			if(rs.next()) {
+				num = rs.getInt("num");
+				String title = rs.getString("title");
+				String content=rs.getString("content");
+				String writer=rs.getString("writer");
+				String indate=rs.getString("indate");
+				int count =rs.getInt("count");
+				vo = new Board(num,title,content,writer,indate,count);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			dbClose();
+		}
+		return vo;
+	}//__getBynum__ //
+	
+	//조회수업데이트
+	public void updateCount(int num) {
+		String SQL = "update board set count = count+1 where num=?";
+		conn = getConnect();
+		try {
+			ps = conn.prepareStatement(SQL);
+			ps.setInt(1, num);
+			ps.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally{
+			dbClose();
+		}
+	}//__updateCount__//
 	
 	public void dbClose() {
 		try {
